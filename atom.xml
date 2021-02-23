@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Qnurye</title>
+  
+  <subtitle>Qnurye`s little blog</subtitle>
+  <link href="http://qnurye.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://qnurye.github.io/"/>
+  <updated>2021-02-19T07:12:14.346Z</updated>
+  <id>http://qnurye.github.io/</id>
+  
+  <author>
+    <name>Qnurye</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello,World</title>
+    <link href="http://qnurye.github.io/2020/10/01/Hello-World/"/>
+    <id>http://qnurye.github.io/2020/10/01/Hello-World/</id>
+    <published>2020-10-01T10:17:25.000Z</published>
+    <updated>2021-02-19T07:12:14.346Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="hello-world"><a class="markdownIt-Anchor" href="#hello-world"></a> Hello, World</h1><blockquote><p>我之前的博客在arch滚崩后源码不在了，所以重新搭建了我的博客 😦<br />The source code of my previous blog was gone after my ArchLinux crashed, so I rebuilt it 😦</p></blockquote><pre><code class="hljs python"><span class="hljs-comment">#!/usr/bin/python</span><span class="hljs-comment"># test python code</span><span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">__main__</span>():</span>    <span class="hljs-keyword">for</span> x <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">99</span>):        print(<span class="hljs-string">&#x27;Hello, world !&#x27;</span>)    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:    __main__()</code></pre><p><a href="https://qnurye.github.io/about">About me</a></p>]]></content>
+    
+    
+    <summary type="html">Hello, World</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
