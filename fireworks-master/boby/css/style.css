@@ -133,10 +133,3 @@ body {
 body {
     background: url(../images/houtaibizhi.jpg);
 }
-
-audio,
-embed {
-    position: absolute;
-    z-index: -9999;
-    top: -9999px;
-}
