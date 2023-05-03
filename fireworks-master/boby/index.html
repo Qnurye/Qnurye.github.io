@@ -16,6 +16,10 @@
 <body>
     <div id="mainDiv">
         <div id="content">
+            <audio controls>
+                <source src="mp3/gbqq.mp3" type="audio/mpeg">
+                Your browser does not support this audio format.
+            </audio>
             <div id="loveHeart">
                 <canvas id="garden"></canvas>
                 <div id="words">
@@ -38,31 +42,31 @@
         </div>
     </div>
     <script type="text/javascript">
-        let audioPlaying = true,
-            backgroundAudio, browser;
-        browser = navigator.userAgent.toLowerCase();
-        $('<audio class="audio1" src="mp3/gbqq.mp3" loop></audio>').prependTo('body');
-        if (!browser.indexOf('firefox') > -1) {
-            $('<embed id="background-audio" src="mp3/gbqq.mp3" autostart="1"></embed>').prependTo('body');
-            backgroundAudio = setInterval(function () {
-                $("#background-audio").remove();
-                $('<embed id="background-audio" src="mp3/gbqq.mp3"></embed>').prependTo('body');
-            }, 12000); // 120000 is the duration of your audio which in this case 2 mins.
-        }
+        // let audioPlaying = true,
+        //     backgroundAudio, browser;
+        // browser = navigator.userAgent.toLowerCase();
+        // $('<audio class="audio1" src="mp3/gbqq.mp3" loop></audio>').prependTo('body');
+        // if (!browser.indexOf('firefox') > -1) {
+        //     $('<embed id="background-audio" src="mp3/gbqq.mp3" autostart="1"></embed>').prependTo('body');
+        //     backgroundAudio = setInterval(function () {
+        //         $("#background-audio").remove();
+        //         $('<embed id="background-audio" src="mp3/gbqq.mp3"></embed>').prependTo('body');
+        //     }, 12000); // 120000 is the duration of your audio which in this case 2 mins.
+        // }
 
-        $(".toggle-audio").on('click', function (event) {
-                audioPlaying = !audioPlaying;
-                $("#background-audio").remove();
+        // $(".toggle-audio").on('click', function (event) {
+        //         audioPlaying = !audioPlaying;
+        //         $("#background-audio").remove();
 
-                clearInterval(backgroundAudio);
-                if (audioPlaying) {
-                    $(".audio1").play();
-                    // play audio 
-                }
-                else {
-                    $(".audio1").pause();
-                }
-            })
+        //         clearInterval(backgroundAudio);
+        //         if (audioPlaying) {
+        //             $(".audio1").play();
+        //             // play audio 
+        //         }
+        //         else {
+        //             $(".audio1").pause();
+        //         }
+        //     })
 
         var offsetX = $("#loveHeart").width() / 2;
         var offsetY = $("#loveHeart").height() / 2;
